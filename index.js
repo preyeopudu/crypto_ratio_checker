@@ -23,7 +23,7 @@ const tick=async()=>{
             "bybtSecret":BYBITSECRET
         }
     })
-    post("sell ratio")
+    
    
     const data=result.data.data[result.data.data.length-1].list[1]
     const turnover=data.turnoverNumber
